@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+<!--<external-path-->
+    <!--name="my_images"-->
+    <!--path="Android/data/android.project.firebaseapplication/files/Pictures"/>-->
+    <external-path
+        name="Pictures"
+        path="Pictures"/>
+      <!--1.name="Pictures" : name for content provider-->
+    <!--content://android.project.firebaseapplication.fileprovider/Pictures/Today's%20Menu20180629_1902327277835531947226525.jpg-->
+    <!--2. path= "Pictures" : directory for content provider from /storage/emulated/0/-->
+    <!--/storage/emulated/0/Pictures/Today's Menu20180629_1902327277835531947226525.jpg-->
+</paths>

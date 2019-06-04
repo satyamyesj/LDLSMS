@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/uploadMenuItem"
+        android:title="Upload Menu"
+        android:icon="@mipmap/material_upload_to_cloud"
+        />
+
+    <item
+        android:id="@+id/refreshButton"
+        android:title="Refresh Timeline"
+        android:icon="@mipmap/synchronize"
+        />
+
+    <item
+        android:id="@+id/viewSubscriptionsButton"
+        android:title="Subscriptions"
+        android:icon="@mipmap/list_view"
+        />
+
+    <item
+        android:id="@+id/addSubscriberButton"
+        android:title="Add subscriber"
+        android:icon="@mipmap/add_property"
+        />
+
+    <item
+        android:id="@+id/signOutItem"
+        android:title="Sign Out"
+        android:icon="@mipmap/material_export"
+        />
+</menu>
